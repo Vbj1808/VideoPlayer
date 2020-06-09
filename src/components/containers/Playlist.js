@@ -1,6 +1,6 @@
 import React from 'react';
 import PlaylistHeader from '../PlaylistHeader';
-import PlaylistItems from '../containers/PlayListItems';
+import PlaylistItems from '../containers/PlaylistItems';
 import DarkMode from '../DarkMode';
 
 const Playlist =  props => (

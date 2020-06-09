@@ -1,5 +1,5 @@
 import React from 'react';
-import PlaylistItems from './containers/PlayListItems';
+import PlaylistItems from './containers/PlaylistItems';
 
 const PlaylistItem = props => (
     <div>

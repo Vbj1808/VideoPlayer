@@ -1,7 +1,8 @@
 import React from 'react';
+import Player from './Player';
 
 const App = () => (
-    <div>Let's Go</div>
+    <Player />
 )
 
 export default App;
