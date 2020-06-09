@@ -1,10 +1,10 @@
 import React from 'react';
-import PlaylistItems from './containers/PlaylistItems';
+import PlaylistItemStyle from './styles/PlaylistItemStyle';
 
 const PlaylistItem = props => (
-    <div>
+    <PlaylistItemStyle>
         Playlist;
-    </div>
+    </PlaylistItemStyle>
 )
 
 export default PlaylistItem;
