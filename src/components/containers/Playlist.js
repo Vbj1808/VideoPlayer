@@ -4,11 +4,11 @@ import PlaylistItems from '../containers/PlaylistItems';
 import DarkMode from '../DarkMode';
 import PlaylistStyle from '../styles/PlaylistStyle';
 
-const Playlist =  props => (
+const Playlist =  ({ videos, active, darkModeCallback, darkMode}) => (
         <PlaylistStyle>
-            <DarkMode />
-            <PlaylistHeader />
-            <PlaylistItems />
+            <DarkMode darkModeCallback={darkModeCallback} darkMode={darkMode} />
+            <PlaylistHeader active={active} total={videos.length} />
+            <PlaylistItems video={videos} active={active} />
         </PlaylistStyle>
     )
 
